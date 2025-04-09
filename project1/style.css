@@ -37,7 +37,7 @@ body {
 nav ul {
     list-style-type: none;
     padding: 10px;
-    background-color: #011d41; /* Slightly lighter purple for contrast */
+    background-color: #011d41; /* Slightly lighter blue for contrast */
     text-align: center;
 }
 
@@ -75,9 +75,9 @@ section {
 
 /* Footer Styles */
 footer {
-    background-color: #000D1E;
+    background-color: #000D1E; /* Background colour to match */
     color: #ffffff;
-    text-align: center;
+    text-align: center; /* Alligns text  */
     padding: 20px 0;
 }
 
@@ -86,8 +86,6 @@ footer a {
     text-decoration: underline;
 }
 
-/* style for about */
-/* Base styles for consistency */
 body {
     font-family: Arial, sans-serif; /* Example font */
     margin: 0;
@@ -95,7 +93,6 @@ body {
     background-color: #f4f4f4; /* Light grey background */
 }
 
-/* Common Section Styles */
 section {
     padding: 20px; /* Spacing around content */
     margin: 10px 0; /* Spacing outside section */
@@ -103,7 +100,6 @@ section {
     border-radius: 8px; /* Rounded corners */
 }
 
-/* Table Styles */
 table {
     width: 100%; /* Full width tables */
     border-collapse: collapse; /* Collapse borders */
@@ -120,7 +116,6 @@ th {
     color: white; /* Header row styling */
 }
 
-/* Image Styles */
 img {
     max-width: 100%; /* Ensure images are responsive */
     height: auto;
