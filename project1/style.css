@@ -1,22 +1,44 @@
-.site-header {
-    background-color: #000D1E; /*Adds Background colour*/
-    color: #ffffff; /*Brand Colour*/
-    padding: 20px 0;
-    text-align: center; /*Centres text*/
+/* Base Styles */
+body, h1, h2, ul, li, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f4f4f4; /* Light gray background*/
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .logo {
+    max-width: 500px; /* Adjusted logo size for better visibility */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 0 auto 20px;
 }
 
+/* Header Styles */
+.site-header {
+    background-color: #000D1E; /* Blue to contrast with the logo */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
 nav ul {
     list-style-type: none;
     padding: 10px;
-    background-color: #000D1E; /* Slightly lighter blue for contrasting effect*/
-    text-align: center; /*Centres text*/
+    background-color: #011d41; /* Slightly lighter purple for contrast */
+    text-align: center;
 }
 
 nav ul li {
@@ -29,8 +51,16 @@ nav ul li a {
     font-size: 16px;
 }
 
+/* Main Content Styles */
+main {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
 main h2 {
-    color: #031d66;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -38,16 +68,42 @@ main p, main ul {
     margin-bottom: 15px;
 }
 
-.navbar {
-    background-color: #333; /* Dark background */
-    overflow: hidden;
+/* Services, Jobs, and News Sections */
+section {
+    margin-bottom: 20px;
 }
 
-.nav_list {
-    list-style-type: none;
+/* Footer Styles */
+footer {
+    background-color: #000D1E;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* style for about */
+/* Base styles for consistency */
+body {
+    font-family: Arial, sans-serif; /* Example font */
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
 }
 
+/* Common Section Styles */
+section {
+    padding: 20px; /* Spacing around content */
+    margin: 10px 0; /* Spacing outside section */
+    background-color: white; /* White background for content areas */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Table Styles */
 table {
     width: 100%; /* Full width tables */
     border-collapse: collapse; /* Collapse borders */
@@ -62,4 +118,16 @@ th, td {
 th {
     background-color: #333;
     color: white; /* Header row styling */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    display: block; /* Remove inline-block spacing */
+    margin: 0 auto; /* Center images */
+}
+.container_footer {
+    margin: 0 auto; 
+    max-width: 1000px; /* Adjust the maximum width as needed */
 }
