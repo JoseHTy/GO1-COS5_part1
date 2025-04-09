@@ -1,0 +1,65 @@
+.site-header {
+    background-color: #000D1E; /*Adds Background colour*/
+    color: #ffffff; /*Brand Colour*/
+    padding: 20px 0;
+    text-align: center; /*Centres text*/
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000D1E; /* Slightly lighter blue for contrasting effect*/
+    text-align: center; /*Centres text*/
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+main h2 {
+    color: #031d66;
+    margin-bottom: 10px;
+}
+
+main p, main ul {
+    margin-bottom: 15px;
+}
+
+.navbar {
+    background-color: #333; /* Dark background */
+    overflow: hidden;
+}
+
+.nav_list {
+    list-style-type: none;
+    margin: 0;
+}
+
+table {
+    width: 100%; /* Full width tables */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px; /* Spacing inside table cells */
+    border-bottom: 1px solid #ddd; /* Light grey border */
+}
+
+th {
+    background-color: #333;
+    color: white; /* Header row styling */
+}
