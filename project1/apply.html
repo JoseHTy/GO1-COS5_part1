@@ -38,9 +38,11 @@
     </section>
    
     <section>
-    <h1>What we are looking for<h1></h1>
+    <h1 class="Capsule">What we are looking for<h1></h1>
         <p>
-
+            We are seeking a highly skilled and motivated Software Developer with a strong foundation in computer science and hands-on experience in full-stack development. The ideal candidate will hold a bachelor’s degree in Computer Science, Software Engineering, 
+            or a related field, and have at least 2–3 years of professional experience in software development. Proficiency in programming languages such as JavaScript, Python, or Java is required, along with experience in frameworks like React, Node.js, or Django. 
+            Candidates should be familiar with version control systems (e.g., Git), agile development methodologies, and database technologies such as SQL or MongoDB. Strong problem-solving skills, the ability to work collaboratively in a team environment, and excellent communication are essential for success in this role.
         </p>
     </section>
 
@@ -48,7 +50,7 @@
 
 
     <section>
-       <h1>Why you should Apply with us? </h1>
+       <h1 class="Capsule">Why you should Apply with us? </h1>
         <p>If you're passionate about innovation, growth and making a real impact in the world, our company is the perfect place for you.
             At Nexa-Soft Technologies, we harbour and develop a talented community of professionals dedicated to solving real-world problems with cutting-edge solutions.
             Here, your contribution is both valued and makes a difference. Surrounded by a supportive environment aswell as being equipped with state-of-the-art technology, opportunities go from bounded to endless.
@@ -57,11 +59,13 @@
     </section>
 
 
+    
     <section>
-        <h1>Application</h1>
-        <h3>Personal Details</h3>
-        <form id="survey" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
-            <p><label for="Job Reference Number">Job Reference Number</label>
+        <h1 class="ApplicationTitle">Application</h1>
+
+        <div class="ReferenceDetails">
+        <h3>Reference Details</h3>
+        <p><label for="Job Reference Number">Job Reference Number</label>
             <select name="reference number" id="reference number">
             <option value="" selected="selected">Please Select</option>
             <option value="GOS1">GOS1</option>
@@ -74,7 +78,11 @@
             
             </select>
         </p>
+        </div>
+        <form id="survey" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+        <h3>Personal Details</h3>
 
+        <div class="PersonalDetails">
         <p>
             <label>Given Name
                 <input type="text" name="Given Name" id="tbFirstname" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
@@ -111,7 +119,8 @@
         <required="required"/>
         </p>
         </fieldset>
-    
+        </div>
+    <div class="PostalDetails">
     <h3>Postal Details</h3>
         <p>
             <label>Street Address 
@@ -153,7 +162,9 @@
                 pattern="[0-9]{4}"/>
         
         </p>
+        </div>
 
+        <div class="ContactDetails">
         <h3>Contact Details</h3>
 
         <p>
@@ -173,9 +184,12 @@
                 required="required"/>
         </p>
 
+        </div>
 
+            <div class="OtherDetails">
+            <h3>Other Details</h3>
             <p>
-                <label for="checkbox"> Other Details <br/>
+                <label for="checkbox"> 
                     <input type="checkbox" name="Required Technical List"
                     value="______" />
                     Required Technical List</label>
@@ -194,6 +208,10 @@
                 </label>
             </p>
 
+          
+
+            
+
             <p>
                 <label>Other Skills<br />
                     <textarea name="Other Skills"
@@ -202,11 +220,14 @@
                 </label>
 
             </p>
+
+        </div>
     
         <p>
             <input type="submit" value="Apply"/>
             <input type="reset" Value="Reset Form"/>
         </p>
+    
     </section>
     
 

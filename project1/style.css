@@ -129,5 +129,53 @@ img {
 /*jose css*/
 
 label {
-    color: green;
+    color: #033679;
+}
+
+/* */
+
+p {
+    
+}
+
+.Capsule {
+    text-align: center;
+    color: white;
+    background-color: #011d41;
+    padding: 15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -19px;
+
+}
+
+.ApplicationTitle {
+    text-align: center;
+    background-color: #011d41;
+    color: white;
+    padding: 15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -19px;
+
+}
+
+.PersonalDetails {
+    
+}
+
+.ReferenceDetails {
+    
+}
+
+.PostalDetails {
+   
+}
+
+.ContactDetails {
+    
+}
+
+.OtherDetails {
+    
 }
