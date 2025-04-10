@@ -26,100 +26,98 @@ body {
 
 /* Header Styles */
 .site-header {
-    background-color: #000D1E; /* Dark blue background */
+    background-color: #000D1E; /* Dark blue background to match logo */
     color: #ffffff; /* White text */
-    padding: 20px 0; /* Top and bottom padding */
+    padding: 20px 0; /* Top and bottom padding to remove any gaps inbetween */
     text-align: center; /* Center align text */
 }
 
 /* Navigation Styles */
 nav ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none; /* Remove bullet points for a more casual look */
     padding: 10px; /* Inner spacing */
-    background-color: #011d41; /* Navy blue background */
+    background-color: #011d41; /* Navy blue background to seamlessly blend */
     text-align: center; /* Center navigation items */
 }
 
 nav ul li {
     display: inline; /* Inline list items */
-    margin-right: 20px; /* Space between items */
+    margin-right: 20px; /* Space between items makes it easier to read */
 }
 
 nav ul li a {
-    color: #ffffff; /* White link text */
-    font-size: 16px; /* Set link font size */
+    color: #ffffff; /* White link text to stand out on dark background */
+    font-size: 16px; /* Set link font size to match */
 }
 
-/* Main Content Styles */
 main {
     background-color: #ffffff; /* White content background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a more dynamic look */
     padding: 20px; /* Inner spacing */
-    margin-top: 20px; /* Space above main */
+    margin-top: 20px; /* Space above main for a seamless look */
 }
 
 main h2 {
-    color: #000000; /* Black heading text */
-    margin-bottom: 10px; /* Space below heading */
+    color: #000000; /* Black heading text to standout as headings */
+    margin-bottom: 10px; /* Space below heading for paragraphs*/
 }
 
 main p, main ul {
     margin-bottom: 15px; /* Bottom spacing for paragraphs/lists */
 }
 
-/* Services, Jobs, and News Sections */
 section {
     margin-bottom: 20px; /* Space below each section */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #000D1E; /* Dark blue footer background */
+    background-color: #000D1E; /* Dark blue footer background to match logo */
     color: #ffffff; /* White footer text */
     text-align: center; /* Center align text */
-    padding: 20px 0; /* Top and bottom padding */
+    padding: 20px 0; /* Top and bottom padding to cut gaps */
 }
 
 footer a {
     color: #ffffff; /* White footer links */
-    text-decoration: underline; /* Underlined links */
+    text-decoration: underline; /* Underlined links to prioritise*/
 }
 
 body {
-    font-family: Arial, sans-serif; /* Set fallback font */
+    font-family: Arial, sans-serif; /* Set fallback font incase */
     margin: 0; /* Remove body margin */
-    padding: 0; /* Remove body padding */
-    background-color: #f4f4f4; /* Light grey background */
+    padding: 0; /* Remove body padding to remove any gaps */
+    background-color: #f4f4f4; /* Light grey background for better definition */
 }
 
 section {
-    padding: 20px; /* Inner section spacing */
+    padding: 20px; /* Inner section spacing as it ooks cleaner  */
     margin: 10px 0; /* Vertical spacing */
     background-color: white; /* White section background */
-    border-radius: 8px; /* Rounded section corners */
+    border-radius: 8px; /* Rounded section corners to make it pop */
 }
 
 table {
-    width: 100%; /* Full-width table */
-    border-collapse: collapse; /* Merge table borders */
+    width: 100%; /* Full-width table to fill section */
+    border-collapse: collapse; /* Merging table borders for a better look */
 }
 
 th, td {
     text-align: left; /* Left-align table text */
-    padding: 8px; /* Inner cell spacing */
-    border-bottom: 1px solid #ddd; /* Light bottom border */
+    padding: 8px; /* Inner cell spacing to gap text */
+    border-bottom: 1px solid #ddd; /* Light bottom border to standout */
 }
 
 th {
-    background-color: #333; /* Dark header background */
-    color: white; /* White header text */
+    background-color: #333; /* Dark header background to match the theme */
+    color: white; /* White header text to stand out */
 }
 
 img {
-    max-width: 100%; /* Scale image to container */
+    max-width: 100%; /* Scale image to container for a nice look */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Display as block */
-    margin: 0 auto; /* Center image horizontally */
+    display: block; /* Display as block to remove gaps */
+    margin: 0 auto; /* Center image horizontally for cleaner look */
 }
 
 .container_footer {
