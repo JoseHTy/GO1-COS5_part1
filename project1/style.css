@@ -124,3 +124,10 @@ img {
     margin: 0 auto; /* Center footer container */
     max-width: 1000px; /* Set max width */
 }
+
+
+/*jose css*/
+
+label {
+    color: green;
+}
