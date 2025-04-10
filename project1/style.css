@@ -1,128 +1,128 @@
-/* Base Styles */
 body, h1, h2, ul, li, p, a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    text-decoration: none; /* Remove underlines/decoration */
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7;
-    color: #333;
-    background-color: #f4f4f4; /* Light gray background*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font stack */
+    line-height: 1.7; /* Increase line spacing */
+    color: #333; /* Dark gray text */
+    background-color: #f4f4f4; /* Light gray background */
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
+    max-width: 1200px; /* Max container width */
+    margin: auto; /* Center container horizontally */
+    overflow: hidden; /* Hide overflow content */
+    padding: 20px; /* Inner spacing */
 }
 
 .logo {
-    max-width: 500px; /* Adjusted logo size for better visibility */
-    display: block;
-    margin: 0 auto 20px;
+    max-width: 500px; /* Set max logo width */
+    display: block; /* Block-level element */
+    margin: 0 auto 20px; /* Center with bottom spacing */
 }
 
 /* Header Styles */
 .site-header {
-    background-color: #000D1E; /* Blue to contrast with the logo */
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #000D1E; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center align text */
 }
 
 /* Navigation Styles */
 nav ul {
-    list-style-type: none;
-    padding: 10px;
-    background-color: #011d41; /* Slightly lighter blue for contrast */
-    text-align: center;
+    list-style-type: none; /* Remove bullet points */
+    padding: 10px; /* Inner spacing */
+    background-color: #011d41; /* Navy blue background */
+    text-align: center; /* Center navigation items */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Inline list items */
+    margin-right: 20px; /* Space between items */
 }
 
 nav ul li a {
-    color: #ffffff;
-    font-size: 16px;
+    color: #ffffff; /* White link text */
+    font-size: 16px; /* Set link font size */
 }
 
 /* Main Content Styles */
 main {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 20px;
+    background-color: #ffffff; /* White content background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Inner spacing */
+    margin-top: 20px; /* Space above main */
 }
 
 main h2 {
-    color: #000000;
-    margin-bottom: 10px;
+    color: #000000; /* Black heading text */
+    margin-bottom: 10px; /* Space below heading */
 }
 
 main p, main ul {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Bottom spacing for paragraphs/lists */
 }
 
 /* Services, Jobs, and News Sections */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space below each section */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #000D1E; /* Background colour to match */
-    color: #ffffff;
-    text-align: center; /* Alligns text  */
-    padding: 20px 0;
+    background-color: #000D1E; /* Dark blue footer background */
+    color: #ffffff; /* White footer text */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Top and bottom padding */
 }
 
 footer a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #ffffff; /* White footer links */
+    text-decoration: underline; /* Underlined links */
 }
 
 body {
-    font-family: Arial, sans-serif; /* Example font */
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Set fallback font */
+    margin: 0; /* Remove body margin */
+    padding: 0; /* Remove body padding */
     background-color: #f4f4f4; /* Light grey background */
 }
 
 section {
-    padding: 20px; /* Spacing around content */
-    margin: 10px 0; /* Spacing outside section */
-    background-color: white; /* White background for content areas */
-    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner section spacing */
+    margin: 10px 0; /* Vertical spacing */
+    background-color: white; /* White section background */
+    border-radius: 8px; /* Rounded section corners */
 }
 
 table {
-    width: 100%; /* Full width tables */
-    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Merge table borders */
 }
 
 th, td {
-    text-align: left;
-    padding: 8px; /* Spacing inside table cells */
-    border-bottom: 1px solid #ddd; /* Light grey border */
+    text-align: left; /* Left-align table text */
+    padding: 8px; /* Inner cell spacing */
+    border-bottom: 1px solid #ddd; /* Light bottom border */
 }
 
 th {
-    background-color: #333;
-    color: white; /* Header row styling */
+    background-color: #333; /* Dark header background */
+    color: white; /* White header text */
 }
 
 img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto;
-    display: block; /* Remove inline-block spacing */
-    margin: 0 auto; /* Center images */
+    max-width: 100%; /* Scale image to container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Display as block */
+    margin: 0 auto; /* Center image horizontally */
 }
+
 .container_footer {
-    margin: 0 auto; 
-    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center footer container */
+    max-width: 1000px; /* Set max width */
 }
