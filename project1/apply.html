@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Sets language to English -->
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8" /> <!-- Sets character encoding -->
+    <meta name="description" content="Index Page" /> <!-- Page description -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive scaling -->
+    <meta name="author" content="Jacob Semmel"> <!-- Author of the document -->
+
+    <!--The title of our company was created using generative AI-->
+    <title>Job Application</title> <!-- Sets browser tab title -->
+    <link rel="stylesheet" href="style.css"/> <!-- Links external CSS file -->
+</head>
+
+<body>
+    <div class="container"> <!-- Page content wrapper -->
+        <header class="site-header"> <!-- Page header section -->
+            <!--The image sourced for our logo was created using generative AI-->
+            <img src="logo1.png" alt="Nexa-Soft Logo" class="logo"/> <!-- Company logo image -->
+        </header>
+
+        <nav> <!-- Navigation bar starts -->
+            <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
+            <ul> <!-- Navigation links list -->
+                <li><a href="index.html">Home</a></li> <!-- Link to homepage -->
+                <li><a href="jobs.html">Job Descriptions</a></li> <!-- Link to jobs page -->
+                <li><a href="apply.html">Apply</a></li> <!-- Link to apply page -->
+                <li><a href="about.html">About us</a></li> <!-- Link to about page -->
+            </ul>
+        </nav>
+    
+    <fieldset>
+   
+
+
+
+
+
+
+
+
+    <section>
+
+        <legend><h3>Personal Details</h3></legend>
+        <form id="survey" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+            <p><label for="Job Reference Number">Job Reference Number</label>
+            <select name="reference number" id="reference number">
+            <option value="" selected="selected">Please Select</option>
+            <option value="GOS1">GOS1</option>
+            <option value="GOS2">GOS2</option>
+            <option value="GOS3">GOS3</option>
+            <option value="GOS4">GOS4</option>
+            <option value="GOS5">GOS5</option>
+
+            #fix job requried
+            
+            </select>
+        </p>
+
+        <p>
+            <label>Given Name
+                <input type="text" name="Given Name" id="tbFirstname" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+            </label>
+            <label>Last Name
+                <input type="text" name="Last Name" id="tbLastbame" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+            </label>
+        </p>
+    
+        <p>
+            <label>Date of Birth
+                <input type="text" 
+                    name="Date Of Birth"
+                    placeholder="dd/mm/yy"
+                    pattern="\d{1,2}\/\d{1,2}\/\d{4}"
+                    required="required"/>
+            </label>
+        </p>
+
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            <label><input type="radio" name="Gender"
+                value="Male" checked="checked"/>
+                Male </label>
+
+             <label><input type="radio" name="Gender"
+                 value="Female" checked="checked"/>
+                 Female </label>
+
+            <label><input type="radio" name="Gender"
+                value="Unpreferred" checked="checked"/>
+                    Prefer Not To Say </label>
+        <required="required"/>
+        </p>
+        </fieldset>
+    
+    <legend><h3>Postal Details</h3></legend>
+        <p>
+            <label>Street Address 
+                <input type="text" name="Street Address" id="tbStreetaddress" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
+                placeholder="Enter Here"/>
+            </label>
+        </p>
+
+        <p>
+            <label>Suburb
+                <input type="text" name="Suburb" id="tbSuburb" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
+                placeholder="Enter Here"/>
+            </label>
+        </p>
+
+        <p>
+            <label for="State">State
+            </label>
+            <select name="State" id="state">
+                <option value="" selected="selected">Please Select</option>
+                <option value="Victoria">Victoria</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Queensland">Queensland</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="West Australia">West Australia</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Tasmania">Tasmania</option>
+                <option value="Australian Capital Territory">Australian Capital Territory</option>
+            </select>   
+        </p>
+
+        <p>
+            <label>Postcode</label>
+            <input type="text" 
+                name="Postcode"
+                placeholder="Enter Here"
+                maxlength="4"
+                required="required"
+                pattern="[0-9]{4}"/>
+        
+        </p>
+
+        <legend><h3>Contact Details</h3></legend>
+
+        <p>
+            <label for="Email Address">Email Address
+                <input type="email" id="email" name="Email Address"
+                placeholder="Enter Here"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required="required"/>
+            </label>
+        </p>
+
+        <p>
+            <label for="number">Phone Number</label>
+                <input type="telephone" id="number" name="Phone Number"
+                placeholder="Enter Here"
+                pattern="\\d{4}\ \d{3}-\d{4}"
+                required="required"/>
+        </p>
+
+        <legend>Other Details</legend>
+            <p>
+                <label for="checkbox">
+                    <input type="checkbox" name="Required Technical List"
+                    value="______" />
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="_______" />
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="______"/>
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="______"/>
+                    Required Technical List</label>
+                </label>
+            </p>
+
+            <p>
+                <label>Other Skills<br />
+                    <textarea name="Other Skills"
+                        row="20" cols="30" placeholder="Enter Here">
+                    </textarea>
+                </label>
+
+            </p>
+    
+        <p>
+            <input type="submit" value="Apply"/>
+            <input type="reset" Value="Reset Form"/>
+        </p>
+    </section>
+    
+
+
+</body>
+
+</html>
