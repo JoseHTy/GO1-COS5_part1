@@ -1,3 +1,4 @@
+/* Jacob's CSS: */
 body, h1, h2, ul, li, p, a {
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
@@ -32,7 +33,10 @@ body {
     text-align: center; /* Center align text */
 }
 
-/* Navigation Styles */
+li {
+    list-style-type: none;
+}
+
 nav ul {
     list-style-type: none; /* Remove bullet points for a more casual look */
     padding: 10px; /* Inner spacing */
@@ -87,7 +91,7 @@ body {
     font-family: Arial, sans-serif; /* Set fallback font incase */
     margin: 0; /* Remove body margin */
     padding: 0; /* Remove body padding to remove any gaps */
-    background-color: #f4f4f4; /* Light grey background for better definition */
+    background-color: #f4f4f4d5; /* Light grey background for better definition */
 }
 
 section {
@@ -109,7 +113,7 @@ th, td {
 }
 
 th {
-    background-color: #333; /* Dark header background to match the theme */
+    background-color: #000000; /* Dark header background to match the theme */
     color: white; /* White header text to stand out */
 }
 
@@ -126,7 +130,7 @@ img {
 }
 
 
-/*jose css*/
+/*Jose's CSS: */
 
 label {
     color: #033679;
