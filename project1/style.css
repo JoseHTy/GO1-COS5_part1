@@ -150,7 +150,7 @@ p {
     margin-top: -20px;
     margin-bottom: 20px;
     margin-left: -19px;
-
+    margin-right: -19px;
 }
 
 .ApplicationTitle {
@@ -161,19 +161,23 @@ p {
     margin-top: -20px;
     margin-bottom: 20px;
     margin-left: -19px;
+    margin-right: -19px;
+    
 
 }
 
 .PersonalDetails {
-    
+   
+   
 }
 
 .ReferenceDetails {
     
+    
 }
 
 .PostalDetails {
-   
+  
 }
 
 .ContactDetails {
@@ -183,3 +187,10 @@ p {
 .OtherDetails {
     
 }
+
+nav ul li :hover {
+    color: lightblue;
+}
+
+
+
