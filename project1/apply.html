@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Sets language to English -->
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8" /> <!-- Sets character encoding -->
+    <meta name="description" content="Index Page" /> <!-- Page description -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive scaling -->
+    <meta name="author" content="Jacob Semmel"> <!-- Author of the document -->
+
+    <!--The title of our company was created using generative AI-->
+    <title>Job Application</title> <!-- Sets browser tab title -->
+    <link rel="stylesheet" href="style.css"/> <!-- Links external CSS file -->
+</head>
+
+<body>
+    <div class="container"> <!-- Page content wrapper -->
+        <header class="site-header"> <!-- Page header section -->
+            <!--The image sourced for our logo was created using generative AI-->
+            <img src="logo1.png" alt="Nexa-Soft Logo" class="logo"/> <!-- Company logo image -->
+        </header>
+
+        <nav> <!-- Navigation bar starts -->
+            <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
+            <ul> <!-- Navigation links list -->
+                <li><a href="index.html">Home</a></li> <!-- Link to homepage -->
+                <li><a href="jobs.html">Job Descriptions</a></li> <!-- Link to jobs page -->
+                <li><a href="apply.html">Apply</a></li> <!-- Link to apply page -->
+                <li><a href="about.html">About us</a></li> <!-- Link to about page -->
+            </ul>
+        </nav>
+    
+    <fieldset>
+
+    
+
+    <section>
+        #for nav bar if needed
+    </section>
+   
+    <section>
+    <h1 class="Capsule">What we are looking for<h1></h1>
+        <p>
+            We are seeking a highly skilled and motivated Software Developer with a strong foundation in computer science and hands-on experience in full-stack development. The ideal candidate will hold a bachelor’s degree in Computer Science, Software Engineering, 
+            or a related field, and have at least 2–3 years of professional experience in software development. Proficiency in programming languages such as JavaScript, Python, or Java is required, along with experience in frameworks like React, Node.js, or Django. 
+            Candidates should be familiar with version control systems (e.g., Git), agile development methodologies, and database technologies such as SQL or MongoDB. Strong problem-solving skills, the ability to work collaboratively in a team environment, and excellent communication are essential for success in this role.
+        </p>
+    </section>
+
+
+
+
+    <section>
+       <h1 class="Capsule">Why you should Apply with us? </h1>
+        <p>If you're passionate about innovation, growth and making a real impact in the world, our company is the perfect place for you.
+            At Nexa-Soft Technologies, we harbour and develop a talented community of professionals dedicated to solving real-world problems with cutting-edge solutions.
+            Here, your contribution is both valued and makes a difference. Surrounded by a supportive environment aswell as being equipped with state-of-the-art technology, opportunities go from bounded to endless.
+            Apply with us if you want to be apart of something bigger.
+            </p>
+    </section>
+
+
+    
+    <section>
+        <h1 class="ApplicationTitle">Application</h1>
+
+        <div class="ReferenceDetails">
+        <h3>Reference Details</h3>
+        <p><label for="Job Reference Number">Job Reference Number</label>
+            <select name="reference number" id="reference number">
+            <option value="" selected="selected">Please Select</option>
+            <option value="GOS1">GOS1</option>
+            <option value="GOS2">GOS2</option>
+            <option value="GOS3">GOS3</option>
+            <option value="GOS4">GOS4</option>
+            <option value="GOS5">GOS5</option>
+
+            #fix job requried
+            
+            </select>
+        </p>
+        </div>
+        <form id="survey" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+        <h3>Personal Details</h3>
+
+        <div class="PersonalDetails">
+        <p>
+            <label>Given Name
+                <input type="text" name="Given Name" id="tbFirstname" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+            </label>
+            <label>Last Name
+                <input type="text" name="Last Name" id="tbLastbame" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+            </label>
+        </p>
+    
+        <p>
+            <label>Date of Birth
+                <input type="text" 
+                    name="Date Of Birth"
+                    placeholder="dd/mm/yy"
+                    pattern="\d{1,2}\/\d{1,2}\/\d{4}"
+                    required="required"/>
+            </label>
+        </p>
+
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            <label><input type="radio" name="Gender"
+                value="Male" checked="checked"/>
+                Male </label>
+
+             <label><input type="radio" name="Gender"
+                 value="Female" checked="checked"/>
+                 Female </label>
+
+            <label><input type="radio" name="Gender"
+                value="Unpreferred" checked="checked"/>
+                    Prefer Not To Say </label>
+        <required="required"/>
+        </p>
+        </fieldset>
+        </div>
+    <div class="PostalDetails">
+    <h3>Postal Details</h3>
+        <p>
+            <label>Street Address 
+                <input type="text" name="Street Address" id="tbStreetaddress" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
+                placeholder="Enter Here"/>
+            </label>
+        </p>
+
+        <p>
+            <label>Suburb
+                <input type="text" name="Suburb" id="tbSuburb" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
+                placeholder="Enter Here"/>
+            </label>
+        </p>
+
+        <p>
+            <label for="State">State
+            </label>
+            <select name="State" id="state">
+                <option value="" selected="selected">Please Select</option>
+                <option value="Victoria">Victoria</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Queensland">Queensland</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="West Australia">West Australia</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Tasmania">Tasmania</option>
+                <option value="Australian Capital Territory">Australian Capital Territory</option>
+            </select>   
+        </p>
+
+        <p>
+            <label>Postcode</label>
+            <input type="text" 
+                name="Postcode"
+                placeholder="Enter Here"
+                maxlength="4"
+                required="required"
+                pattern="[0-9]{4}"/>
+        
+        </p>
+        </div>
+
+        <div class="ContactDetails">
+        <h3>Contact Details</h3>
+
+        <p>
+            <label for="Email Address">Email Address
+                <input type="email" id="email" name="Email Address"
+                placeholder="Enter Here"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required="required"/>
+            </label>
+        </p>
+
+        <p>
+            <label for="number">Phone Number</label>
+                <input type="telephone" id="number" name="Phone Number"
+                placeholder="Enter Here"
+                pattern="\\d{4}\ \d{3}-\d{4}"
+                required="required"/>
+        </p>
+
+        </div>
+
+            <div class="OtherDetails">
+            <h3>Other Details</h3>
+            <p>
+                <label for="checkbox"> 
+                    <input type="checkbox" name="Required Technical List"
+                    value="______" />
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="_______" />
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="______"/>
+                    Required Technical List</label>
+
+                    <input type="checkbox" name="Required Technical List"
+                    value="______"/>
+                    Required Technical List</label>
+                </label>
+            </p>
+
+          
+
+            
+
+            <p>
+                <label>Other Skills<br />
+                    <textarea name="Other Skills"
+                        row="20" cols="30" placeholder="Enter Here">
+                    </textarea>
+                </label>
+
+            </p>
+
+        </div>
+    
+        <p>
+            <input type="submit" value="Apply"/>
+            <input type="reset" Value="Reset Form"/>
+        </p>
+    
+    </section>
+    
+
+
+</body>
+
+</html>
