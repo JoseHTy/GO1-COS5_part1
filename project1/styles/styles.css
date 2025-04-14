@@ -170,15 +170,17 @@ img {
 
 /*End of Jacob's CSS */
 
+
+
 /*Jose's CSS: */
 
 label {
     color: #ffffff;
 }
 
-/* */
 
-.Capsule {
+/*Below edits the capsule and application class applied to h1 attributes, in which creates a blue box surrounding the heading*/
+.Capsule, .ApplicationTitle {
     text-align: center;
     color: white;
     background-color: rgb(41, 85, 100);
@@ -189,24 +191,15 @@ label {
     margin-right: -20px;
 }
 
-.ApplicationTitle {
-    text-align: center;
-    background-color: rgb(41, 85, 100);
-    color: white;
-    padding: 15px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    margin-left: -20px;
-    margin-right: -20px;
-    
-
-}
 
 
+/*Creates a light blue colour when the mouse hovers over one of the menu texts*/
 nav ul li :hover {
     color: lightblue;
 }
 
+
+/*Creates a grid for each application detail*/
 data {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
@@ -216,6 +209,8 @@ data {
     
 }
 
+
+/*Below Item1-5 is me structuring my application details to abide by the grid ive created*/
 .Item1 {
     grid-row: 1 / 1;
     grid-column: 1 / 1;
@@ -305,11 +300,13 @@ data {
 }
 
 
-
+/*Used in order to make the fieldset placed on the gender options to only wrap around the options and not the full page*/
 fieldset {
     display: inline-block;
 }
 
+
+/*navbar and navbar a are used to create a sticky navbar which follows your screen as you scroll*/
 #navbar {
     position: sticky;
     overflow: hidden;
@@ -333,6 +330,15 @@ body {
     min-width:30em;
 }
 
+/*used to structure paragraph to become a box on the lefthand side of the page*/
+.joboffersminicapsule {
+    text-align: left;
+    width: 200px;
+}
+
+
+
+/*Image1-6 is me structuring images to fit onto where i wanted them*/
 .image1 {
     width: 600px;
     height:auto;
@@ -360,11 +366,6 @@ body {
     margin-left: 700px;
     margin-top: -300px;
     padding: 5px;
-}
-
-.joboffersminicapsule {
-    text-align: left;
-    width: 200px;
 }
 
 .image4 {
@@ -396,3 +397,5 @@ body {
     margin-top: -260px;
     padding: 5px;
 }
+
+/*End of Jose's CSS*/
