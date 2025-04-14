@@ -7,28 +7,30 @@
     <meta name="keywords" content="software, web, technology" /> <!-- keywords -->
     <meta name="author" content="Jacob Semmel" /> <!-- Author of the page -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Mobile responsiveness -->
-    <link rel="stylesheet" href="style.css" /> <!-- Links external CSS -->
+    <link rel="stylesheet" href="styles/styles.css" /> <!-- Links external CSS -->
 </head>
 
 <body> <!-- Start of body content -->
-      <div class="container"> <!-- Page content wrapper -->
-        <header class="site-header"> <!-- Page header section -->
-            <!--The image sourced for our logo was created using generative AI-->
-            <img src="logo1.png" alt="Nexa-Soft Logo" class="logo"/> <!-- Company logo image -->
-        </header>
+  <div id="navbar"> <!-- Navigation bar starts -->
+    <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
+     <!-- Navigation links list -->
+    <a href="index.html">Home</a> <!-- Link to homepage -->
+    <a href="jobs.html">Job Descriptions</a> <!-- Link to jobs page -->
+    <a href="apply.html">Apply</a> <!-- Link to apply page -->
+    <a href="about.html">About us</a> <!-- Link to about page -->
+    <a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Thank you for using this site</a>
+    
+</div>
 
-        <nav> <!-- Navigation bar starts -->
-            <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
-            <ul> <!-- Navigation links list -->
-                <li><a href="index.html">Home</a></li> <!-- Link to homepage -->
-                <li><a href="jobs.html">Job Descriptions</a></li> <!-- Link to jobs page -->
-                <li><a href="apply.html">Apply</a></li> <!-- Link to apply page -->
-                <li><a href="about.html">About us</a></li> <!-- Link to about page -->
-            </ul>
-        </nav>
-      </fieldset>
+<div class="backgroundimage"> <!--Background image was created using GenAI-->
+  <div class="container">  <!-- Main content wrapper -->
+      <header class="site-header"> <!-- Page header section -->
+          <!--The image sourced for our logo was created using generative AI-->
+          <img src="images/logo1-transparent.png" alt="Nexa-Soft Logo" class="logo"> <!-- Displays company logo -->
+      </header>
+</fieldset>
     <section class="about"> <!-- About section starts -->
-        <h2>About the Team Behind Nexa-Soft Technologies</h2> <!-- Section heading -->
+        <h1 class="Capsule">About the Team Behind Nexa-Soft Technologies</h1> <!-- Section heading -->
 
         <dl> <!-- Start of description list -->
             <dt>Group Name:</dt> <!-- Group label -->
@@ -39,20 +41,31 @@
             <dd>10:30-12:30 Friday</dd> <!-- Class schedule value -->
         </dl>
         <dl>
+          <div class="studentid">
             <dt>Team Members ID's:</dt> <!-- Team ID list label -->
             <dd>103644281</dd> <!-- Member 1 ID -->
             <dd>105725308</dd> <!-- Member 2 ID -->
             <dd>105927997</dd> <!-- Member 3 ID -->
+          </div>
         </dl>
         <dl>
             <dt>Tutor Name:</dt> <!-- Tutor name label -->
-            <dd>Tutor Nick</dd> <!-- Tutor name -->
+            <dd>Enrique Ketterer Ortiz</dd> <!-- Tutor name -->
         </dl>
         <dl>
             <dt>Team Members Contribution:</dt> <!-- Contributions label -->
-            <dd>Jacob: </dd> <!-- Jacob's contribution placeholder -->
-            <dd>Manjot: </dd> <!-- Manjot's contribution placeholder -->
-            <dd>Jose: </dd> <!-- Jose's contribution placeholder -->
+            <dd><strong>Jacob:</strong> My contribuion included completing both the index and about html pages, 
+              Implemented the CSS styling for webpage, hosted the Jira project and nominated all tasks and storys, 
+              and maintained contact withn my team.</dd> <!-- Jacob's contribution placeholder -->
+
+            <dd><strong>Manjot:</strong> I contributed by updating the jobs.html page, adding new sections 
+              and structuring the content with semantic HTML. I also modified the groups-styling.css file, as per my work. 
+              Additionally, I collaborated with the team to ensure design consistency and helped troubleshoot layout issues.</dd> <!-- Manjot's contribution placeholder -->
+
+            <dd><strong>Jose:</strong> Contributed front and back-end, created apply.html and also assisted in managing the other 
+              html files aswell, in which i made everything match the preset aesthetic of the website, followed JIRA tasks and stories, maintained contact 
+              with team members, assisted in both styling and responsiveness for css and I host the github repository. </dd> <!-- Jose's contribution placeholder -->
+
         </dl>
     </section>
 
@@ -78,6 +91,6 @@
         </table>
     </article>
 
-    <img src="" alt="Group Photo" class="groupimage"/> <!-- Placeholder for team photo -->
+    <img src="images/groupphoto.png.jpg" alt="Group Photo" class="groupimage"/> <!-- Placeholder for team photo -->
 </body>
 </html>
