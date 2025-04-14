@@ -154,7 +154,7 @@ img {
 .groupimage {
     width: 500px;
     height:auto;
-    float: center;
+    float: right;
     border: 2px solid #333; /* short-hand: width, style, color */
    
     margin-left: 300px;
