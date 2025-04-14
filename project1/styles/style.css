@@ -40,7 +40,7 @@ li {
 nav ul {
     list-style-type: none; /* Remove bullet points for a more casual look */
     padding: 10px; /* Inner spacing */
-    background-color: #011d41; /* Navy blue background to seamlessly blend */
+    background-color: #011a3ae3; /* Navy blue background to seamlessly blend */
     text-align: center; /* Center navigation items */
 }
 
@@ -104,17 +104,31 @@ section {
 table {
     width: 100%; /* Full-width table to fill section */
     border-collapse: collapse; /* Merging table borders for a better look */
+    margin: 0 auto; /* Center the table horizontally */
+    width: 80%; /* Set the table width to 80% of its container */
 }
 
-th, td {
+td {
     text-align: left; /* Left-align table text */
-    padding: 8px; /* Inner cell spacing to gap text */
-    border-bottom: 1px solid #ddd; /* Light bottom border to standout */
+    padding: 15px; /* Inner cell spacing to gap text */
+    background-color: #e6f0ff;
+    text-align: left;
 }
 
 th {
     background-color: #000000; /* Dark header background to match the theme */
     color: white; /* White header text to stand out */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add space inside each cell */   
+}
+
+tr:hover td {
+    background-color: #cce0ff; /* Light blue hover effect */
+}
+
+table, th, td {
+    border: 1px solid #999; /* Light gray border around table elements */
 }
 
 img {
@@ -129,6 +143,30 @@ img {
     max-width: 1000px; /* Set max width */
 }
 
+.backgroundimage {
+    background-image: url('images/background1.png'); /* Image Path to create background image*/
+    background-size: cover; /*Makes image cover the whole background */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.groupimage {
+    width: 500px;
+    height:auto;
+    float: right;
+    border: 2px solid #333; /* short-hand: width, style, color */
+    margin: 20px;
+    padding: 5px;
+}
+
+.studentid {
+    text-align: right;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px 0
+}
+
+/*End of Jacob's CSS */
 
 /*Jose's CSS: */
 
@@ -202,7 +240,7 @@ data {
 .Item4 {
     grid-row: 2.5 / 3;
     grid-column: 4 / 5;
-    background-color: ;
+    background-color:white;
     
     margin: auto;
 }
