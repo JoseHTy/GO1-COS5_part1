@@ -12,25 +12,30 @@
     <link rel="stylesheet" href="styles/style.css"/> <!-- Links external CSS file -->
 </head>
 
-<body>
-    <div class="container"> <!-- Page content wrapper -->
-        <header class="site-header"> <!-- Page header section -->
-            <!--The image sourced for our logo was created using generative AI-->
-            <img src="images/logo1-transparent.png" alt="Nexa-Soft Logo" class="logo"/> <!-- Company logo image -->
-        </header>
+<body> 
 
-        <nav> <!-- Navigation bar starts -->
-            <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
-            <ul> <!-- Navigation links list -->
-                <li><a href="index.html">Home</a></li> <!-- Link to homepage -->
-                <li><a href="jobs.html">Job Descriptions</a></li> <!-- Link to jobs page -->
-                <li><a href="apply.html">Apply</a></li> <!-- Link to apply page -->
-                <li><a href="about.html">About us</a></li> <!-- Link to about page -->
-            </ul>
-        </nav>
+    <div id="navbar"> <!-- Navigation bar starts -->
+        <!--This navigation menu allows the user to use hyperlinks to direct them to the desired page-->
+         <!-- Navigation links list -->
+        <a href="index.html">Home</a> <!-- Link to homepage -->
+        <a href="jobs.html">Job Descriptions</a> <!-- Link to jobs page -->
+        <a href="apply.html">Apply</a> <!-- Link to apply page -->
+        <a href="about.html">About us</a> <!-- Link to about page -->
+        <a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Thank you for using this site</a>
+        
+    </div>
+
+
+    <div class="backgroundimage"> <!--Background image was created using GenAI-->
+        <div class="container">  <!-- Main content wrapper -->
+            <header class="site-header"> <!-- Page header section -->
+                <!--The image sourced for our logo was created using generative AI-->
+                <img src="images/logo1-transparent.png" alt="Nexa-Soft Logo" class="logo"> <!-- Displays company logo -->
+            </header>
+    </fieldset>
     
-    <fieldset>
-
+    
+    
     
     <section>
     <h1 class="Capsule">What we are looking for<h1></h1>
@@ -89,12 +94,14 @@
             <h3>Personal Details</h3>
             <p>
                 <label>Given Name
-                    <input type="text" name="Given Name" id="tbFirstname" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+                    <input type="text" name="Given Name" id="tbFirstname" maxlength="20" pattern="^[a-zA-Z]+$" required="required"
+                    placeholder="Please Enter Here"/>
                 </label>
             </p>
             <p>
                 <label>Last Name
-                    <input type="text" name="Last Name" id="tbLastbame" maxlength="20" pattern="^[a-zA-Z]+$" required="required"/>
+                    <input type="text" name="Last Name" id="tbLastbame" maxlength="20" pattern="^[a-zA-Z]+$" required="required"
+                    placeholder="Please Enter Here"/>
                 </label>
             </p>
         
@@ -112,15 +119,15 @@
                 <legend><label>Gender</label></legend>
             <p>
                 <label><input type="radio" name="Gender"
-                    value="Male" checked="checked"/>
+                    value="Male" />
                     Male </label>
     
                  <label><input type="radio" name="Gender"
-                     value="Female" checked="checked"/>
+                     value="Female" />
                      Female </label>
     
                 <label><input type="radio" name="Gender"
-                    value="Unpreferred" checked="checked"/>
+                    value="Unpreferred" />
                         Prefer Not To Say </label>
             <required="required"/>
             </p>
@@ -131,14 +138,14 @@
             <p>
                 <label>Street Address 
                     <input type="text" name="Street Address" id="tbStreetaddress" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
-                    placeholder="Enter Here"/>
+                    placeholder="Please Enter Here"/>
                 </label>
             </p>
     
             <p>
                 <label>Suburb
                     <input type="text" name="Suburb" id="tbSuburb" maxlength="40" pattern="^[a-zA-Z]+[1-0]+$" required="required"
-                    placeholder="Enter Here"/>
+                    placeholder="Please Enter Here"/>
                 </label>
             </p>
     
@@ -162,10 +169,10 @@
                 <label>Postcode</label>
                 <input type="text" 
                     name="Postcode"
-                    placeholder="Enter Here"
+                    placeholder="Please Enter Here"
                     maxlength="4"
                     required="required"
-                    pattern="[0-9]{4}"/>
+                    pattern="[200-9944]{4}"/>
             
             </p>
     
@@ -178,7 +185,7 @@
             <p>
                 <label for="Email Address">Email Address
                     <input type="email" id="email" name="Email Address"
-                    placeholder="Enter Here"
+                    placeholder="Please Enter Here"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     required="required"/>
                 </label>
@@ -187,7 +194,7 @@
             <p>
                 <label for="number">Phone Number</label>
                     <input type="telephone" id="number" name="Phone Number"
-                    placeholder="Enter Here"
+                    placeholder="Please Enter Here"
                     pattern="\\d{4}\ \d{3}-\d{4}"
                     required="required"/>
             </p>
@@ -222,7 +229,7 @@
             <p>
                 <label>Other Skills<br />
                     <textarea name="Other Skills"
-                        row="20" cols="30" placeholder="Enter Here">
+                        row="30" cols="30">
                     </textarea>
                 </label>
 
